@@ -18,7 +18,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Boot animation
-TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SCREEN_HEIGHT := 2400
+TARGET_SCREEN_WIDTH := 1080
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 IS_OFFICIAL := true
 
