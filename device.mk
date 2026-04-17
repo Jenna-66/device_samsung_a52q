@@ -32,3 +32,6 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 $(call soong_config_set,samsungCameraVars,extra_ids,54) # ID=54 is macro
+
+#UDFPS Customization
+TARGET_HAS_UDFPS := true
