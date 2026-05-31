@@ -1,9 +1,11 @@
-
-// Init files
+//
+// Copyright (C) 2025 The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
 
 prebuilt_etc {
     name: "init.a52q.rc",
-    src: "etc/init.a52q.rc",
+    src: "init.a52q.rc",
     sub_dir: "init/hw",
-    vendor: true,
+    soc_specific: true,
 }
